@@ -1,3 +1,4 @@
-// run `node index.js` in the terminal
-
-console.log(`Hello Node.js v${process.versions.node}!`);
+import * as fs from "fs"
+fs.readFile("./Data.json",(error,data)=>{
+  console.logg(data)
+})
